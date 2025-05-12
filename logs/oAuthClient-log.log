@@ -1,0 +1,52 @@
+2025-05-12T10:21:49.633Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABM5csmk97rshy8Cl8wGXh4TXZ2u2VfqzF8TMina6atcS200iz&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallback&response_type=code&scope=com.intuit.quickbooks.accounting&state=randomState
+2025-05-12T10:30:17.049Z info: Create Token response is : {
+  "expires_in": 3600,
+  "refresh_token": "RT1-100-H0-17557722160axuo9u56cd6u8cnx6h0",
+  "access_token": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwieC5vcmciOiJIMCJ9..ZyCSWZJ6JKGx43jr-9KqvQ.IWDphFodYzVJdOc35e1A9Ait5eiJV9XTzZcFziSPKoK9mRS6wnZnztr7wId72Nt4c7jKDzeDagyGoNPs87E7BhxXQ5cHbj8AnGZYJMXqRCjbhwCW0m8t8De_VqxCMC0kuQU23tNcCXenbZ0kc7cd7eANjA4DYWqY6RGsyZwjC37prf9LZBpmInDtwDISUBNIimo4mNN-lg7IofcssJ6zsYx1NfwtOmMtW7Qrr6_Njac6V62WVt4WTCIGjp5a7lo2DxyxA-xdbPPD5XoeyKsgM7KwjfwPyqsQP0hipY6VV4X9Php_nYxBATvFLH5Au2sHwMVVTmX_FNvU1NoIzdmHV115epaO_6SgmAfB6MVyZxFhNON3po1s_zbiWnPNpLSm4aXnWTXXC4brPOiqWNyELStUCcIxtOMraCw8RC9X7D08j5v71hfWhCOyQ5TMjR5THxXOTLy1vGNXoBMxUZsUj--N9N8qcDJB_FWYA8qWWgo.ngcJuLr7EASZCqMks9bmjA",
+  "token_type": "bearer",
+  "x_refresh_token_expires_in": 8726400
+}
+2025-05-12T10:30:20.858Z info: The makeAPICall () response is : {
+  "Fault": {
+    "Error": [
+      {
+        "Message": "An application error has occurred while processing your request",
+        "Detail": "System Failure Error: {0}",
+        "code": "10000",
+        "element": "SystemFailureError"
+      }
+    ],
+    "type": "SystemFault"
+  },
+  "time": "2025-05-12T03:30:20.760-07:00"
+}
+2025-05-12T10:33:06.101Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABM5csmk97rshy8Cl8wGXh4TXZ2u2VfqzF8TMina6atcS200iz&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallback&response_type=code&scope=com.intuit.quickbooks.accounting&state=randomState
+2025-05-12T10:33:32.471Z info: Create Token response is : {
+  "expires_in": 3600,
+  "x_refresh_token_expires_in": 8726400,
+  "refresh_token": "RT1-247-H0-1755772412w4tgims4mixup50igl1z",
+  "access_token": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwieC5vcmciOiJIMCJ9..kQdriM8hFoPCrivXmzMXvg.LQkdf6JZPcFOTGLuRSXfyRfi1UMf8UwbQu2KrACnNNYJhfykb2G7tEfEifIWn0cwvTLryCwhg6YQVUF8peLhdOd0wFSzNrRMjKeKVK1CJ8dYloyRw4Vc7XWezb2W-ih3Skg4kbDGd4D6oTN_ewMNsUhnT3cMe46Ds3ampbqBELeGbRpSrm3ZgQ9RxY5pHs_LkXuRfuJqMCVbSDpzBuCr1EDjkWbdLjuWSnLhQ1yLhLkhmNuGkMx5jeNZ-7jpyM2vaSc-eFo0tVYpK8062eCBQFTHcRicZfxJ6rhTsA-JTyqQWP6tT1YEFMSfZGzR1UbOEA0ViKEYBzvvfHcWV0WenNpUQt0aew4HZIjEmEaqrbB65bnQh01WUnEok6aLeJWduHqjfVME-2pB11gNFvP19y06tAePCu5d4x__rD1pHnMQwhZ5Lqj8Vg2u_EdapMa2vgZcUrmBqqsnuq5HxWpQmWhri_Hc5Zd2IHa_nE24rAU.Hqht4I_n4cKao50Y-3-qOw",
+  "token_type": "bearer"
+}
+2025-05-12T10:33:34.713Z info: The makeAPICall () response is : {
+  "Fault": {
+    "Error": [
+      {
+        "Message": "An application error has occurred while processing your request",
+        "Detail": "System Failure Error: {0}",
+        "code": "10000",
+        "element": "SystemFailureError"
+      }
+    ],
+    "type": "SystemFault"
+  },
+  "time": "2025-05-12T03:33:34.615-07:00"
+}
+2025-05-12T12:54:13.506Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABM5csmk97rshy8Cl8wGXh4TXZ2u2VfqzF8TMina6atcS200iz&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallback&response_type=code&scope=com.intuit.quickbooks.accounting&state=randomState
+2025-05-12T12:54:55.763Z info: Create Token response is : {
+  "expires_in": 3600,
+  "x_refresh_token_expires_in": 8726400,
+  "refresh_token": "RT1-35-H0-1755780895ypyvp7885tmhvxdqnkcx",
+  "access_token": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwieC5vcmciOiJIMCJ9..TRQJZSBH4MExpI7JmrhPFg.fKzzT2eqj0KpL_8ok5DRvL9Q-r-gh2HsIwAJf76B8OknuvnxnPLoI_yJpMXN9-eyZ5eTakRrb5WKrf7t-ynj260DeyPn4CJCEDsN6wvwptl99CBanhDcCj_hhMPVZfy5CkIzbEENZhKLRoE5CbsgAfaIXLuDJo8TrO2V3nQubouJ2aDjXjwUlslgE4cfE-x1tLRT7Q9ZEkIVcjK5q1nXnoUuybXGvFs0v9R3PdMkgnNLFEuNZhg6ZhmFLz9Rx3k0X5K0zupVQNXkx5eawTpUYBC5I9yoTmLBCxQ9DpCRW--mHzL1t3LasTNAMzjIxSMhgEbrh8zODiowzp76Bj8PRhB8dFH3Ay_tc4YYp0cB9ggsL_eT0ye0ANgWDZUH9LCLqOTNkMc0TCDMnHj6mRX800xlcqf6IFlsrFZpPR9whvNAu2dBkqDh2OpbyItEKzjc8WQFOONLpZwCl1D_1eEU-O6FCDOuGNDd2K0c2VS2B94.aBkRAE-r2SP-P_saVgxvRg",
+  "token_type": "bearer"
+}
