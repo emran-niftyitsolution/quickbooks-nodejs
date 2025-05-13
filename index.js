@@ -4,6 +4,9 @@ const express = require("express");
 const OAuthClient = require("intuit-oauth");
 const QuickBooks = require("node-quickbooks");
 
+// Import routes
+const invoiceRoutes = require("./routes/invoiceRoutes");
+
 // Initialize an Express application
 const app = express();
 const port = 3000;
@@ -28,17 +31,44 @@ console.log("🚀 Environment Configuration:", {
   clientSecret: process.env.CLIENT_SECRET ? "Set" : "Not Set",
 });
 
-// Authorization endpoint
-app.get("/auth", (req, res) => {
-  console.log("🔑 Starting OAuth Authorization Flow");
+// Initialize QuickBooks authentication
+const initializeQuickBooks = async () => {
+  try {
+    console.log("🔄 Initializing QuickBooks authentication...");
 
-  // Generate the authorization URL
+    // Generate the authorization URL
+    const authUri = oauthClient.authorizeUri({
+      scope: [OAuthClient.scopes.Accounting, OAuthClient.scopes.OpenId],
+      state: "randomState",
+    });
+
+    console.log("📝 Generated Auth URI:", authUri);
+    console.log("⚠️ Please visit the auth endpoint to complete authentication");
+    console.log("   GET /auth");
+  } catch (error) {
+    console.error("❌ Error initializing QuickBooks:", {
+      message: error.message,
+      originalMessage: error.originalMessage,
+      intuit_tid: error.intuit_tid,
+    });
+  }
+};
+
+// Make oauthClient available to routes
+app.set("oauthClient", oauthClient);
+
+// Use routes
+app.use("/api", invoiceRoutes);
+
+// Authentication endpoint
+app.get("/auth", (req, res) => {
+  console.log("🔑 Starting OAuth Authentication Flow");
+
+  // Generate authorization URL
   const authUri = oauthClient.authorizeUri({
-    scope: [OAuthClient.scopes.Accounting],
+    scope: [OAuthClient.scopes.Accounting, OAuthClient.scopes.OpenId],
     state: "randomState",
   });
-
-  console.log("📝 Generated Auth URI:", authUri);
 
   // Redirect to QuickBooks authorization page
   res.redirect(authUri);
@@ -59,22 +89,26 @@ app.get("/callback", async (req, res) => {
       realmId: authResponse.getToken().realmId,
       tokenType: authResponse.getToken().token_type,
       expiresIn: authResponse.getToken().expires_in,
-      refreshTokenExpiresIn: authResponse.getToken().x_refresh_token_expires_in,
     });
 
     // Store the tokens
     oauthClient.setToken(authResponse.getToken());
 
     console.log("✅ Tokens stored successfully");
-    res.redirect("/api/invoices");
+    res.status(200).json({
+      success: true,
+      message: "Authentication successful",
+      realmId: authResponse.getToken().realmId,
+    });
   } catch (error) {
-    console.error("❌ Error during OAuth callback:", {
+    console.error("❌ Error during authentication:", {
       message: error.message,
       originalMessage: error.originalMessage,
       intuit_tid: error.intuit_tid,
-      authResponse: error.authResponse,
     });
-    res.status(500).json({ error: "Authentication failed" });
+    res
+      .status(500)
+      .json({ error: "Authentication failed", details: error.message });
   }
 });
 
@@ -112,7 +146,7 @@ app.get("/api/invoices", async (req, res) => {
       refresh_token
     );
 
-    console.log("�� Making API call to QuickBooks...");
+    console.log("🏢 Making API call to QuickBooks...");
 
     // Use node-quickbooks to fetch invoices
     qbo.findInvoices(
@@ -155,10 +189,14 @@ app.get("/api/invoices", async (req, res) => {
 });
 
 // Start the Express server
-app.listen(port, () => {
+app.listen(port, async () => {
   console.log(`🚀 Server started on port: ${port}`);
   console.log("📝 Available endpoints:");
   console.log("   - GET /auth - Start OAuth flow");
   console.log("   - GET /callback - OAuth callback");
   console.log("   - GET /api/invoices - Get all invoices");
+  console.log("   - POST /api/invoices/create - Create new invoice");
+
+  // Initialize QuickBooks authentication
+  await initializeQuickBooks();
 });
