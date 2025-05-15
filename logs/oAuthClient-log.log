@@ -67,3 +67,234 @@
   "access_token": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwieC5vcmciOiJIMCJ9..2VY5B01ty2d5wJj_z8qQ6Q.qKI2o6UP9deDlUgymcU5lpLHM_MRLgOshvu6xfFRtyWCo4OtL9xjrh7BnFxrJFEJ-SWUo26EbNbvcbhl8UCxoWTSqEjX3aCcv-MlXqWpynMTg3hNvFVw7rQnM9_hIBOrPxmFTB9ioGbwOgd-4vndoH43Zs9xiYEpR_wUkiJj8ZFF_WC0lEROLc_OY_Q-KYzJzB07ZMq_CbtfK17cTFs05ZsJPOlnb_8dkblAUApsPLG-tj7nzjviWiJNchama1d8gMc3UtrEWK8YSjlSCsXbCaL_l44NvDInodbuEV1SUTX95vOEL4wTiTe6p-Xaqn2dueK5iYwaVH3xunNhWRygr-RwUn2Ap08w7N_IiCNweyF7VphJnXpXeAEpKDmoSJDgXECDMhe2RsR1BysWQwJhJ0F5edwtgsGD8MTe4ruuWroYpEvcFm7XypSLtlH0DZsW1JaWRQW1TPpIoplIwwE0hRojaAVdc49Ed7s0sxmbnJmPh04Na-4xs0GQ9jdZfzllFKUN72pht-nMsShMNsPoyzd_EEYq7UIH5LZPShWZ6QhesHjwqkNi9F1DlMrfSoGr024bqpqFmxJLwtH3GK5jcg.6P1KL_iapA-P2pzvNnLO7Q",
   "refresh_token": "RT1-212-H0-1755861171598d7bvndz48lg6h8lnz"
 }
+2025-05-15T09:31:16.131Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABM5csmk97rshy8Cl8wGXh4TXZ2u2VfqzF8TMina6atcS200iz&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallback&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=randomState
+2025-05-15T09:31:35.576Z info: Create Token response is : {
+  "expires_in": 3600,
+  "x_refresh_token_expires_in": 8726400,
+  "id_token": "eyJraWQiOiJPUElDUFJEMDUxMDIwMjMiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOlsiQUJNNWNzbWs5N3JzaHk4Q2w4d0dYaDRUWFoydTJWZnF6RjhUTWluYTZhdGNTMjAwaXoiXSwic3ViIjoiZmMzN2YyOTAtZTY4Ny0zZmQxLTgxYTctMjU1MDRjYmM0ODBiIiwicmVhbG1pZCI6IjkzNDE0NTQ2NTA0MTQwMTciLCJhdXRoX3RpbWUiOjE3NDczMDE0OTIsImlzcyI6Imh0dHBzOi8vb2F1dGgucGxhdGZvcm0uaW50dWl0LmNvbS9vcC92MSIsImV4cCI6MTc0NzMwNTA5NSwiaWF0IjoxNzQ3MzAxNDk1fQ.RXrIgM1Ka_V8PqPru9qZLBJSrVvuOJaNSx-cd3a7anD-UY9CZ5isO_YurHcg1S4QEsbkSOZPVDnU2ce4vue5ycAIQFy-Ch_wjw23XzzGWuPAwmpsEo6ivHze7J_JzIzNwg0aN08AhyGoZSOY9xDcegVglsqlhAJhwzCTSfe133tJxlCi3D6uTU-Y59Up2YCgm84T_1NGXfvSGlKhGzlzcLoHzEmm7EVuCkkNRsfug9ae22uqbgmB3lnnwmV27yYdPu_0qkfN_tcT5fautnbC0Sj2RvDGFFpgwevcGuWRqFwfZwXSF7s3exCcdYaEe2Lxres2tXvS_dVrOLDuRPl1_w",
+  "refresh_token": "RT1-177-H0-175602789574nz63e3zrzy0p4ysoai",
+  "token_type": "bearer",
+  "access_token": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwieC5vcmciOiJIMCJ9..bSLZUHqsg5TZiv_JIo7vfQ.oWqhcEKKPvY5tnC24e-39iEM-Sdz-Qm52X_DEv5TyguFqeddtk5AVuhcNP2pBmoBYe2E5veKMzFEQ9l-5gYjeol5Kdzdr7-hAAFg7Q2jrcBUZB5GSWydOFdgjEsqWlIr46asSyK_jCKsQ8xkwLEgWX-ACbCKfW-iANqCHXkmWX4bcmaUbpOUUFCTceYRSdr3Qa2WbtgRjuNNLYmDVhJZPHCSutXrk34t9Zsx6TgtsIpGVG5xMU9RvuPpk6tU9oCKi9iKwTgV5BHzQoOqFu94hIuwunu7F6v1xNXEMxSvl7v8aK0BGVH0QFvAEdTINlOZXM9ZQh7f7UfeP4AvI8c58288aoO3CYOb2fYqu0gWAmamsz3PsAeJNF8lQ-96I8Bk5VycST1q_4o-sKMPb3Aa4EYIbQ4wmP9CzjrjcnMM8-FKyvQZCFUTbGwPqivEYJsR1IgqziZQ4MXR4LHmoe-FM6yTBwlTBx3xawwvTxJxDvX-C69NLhfGs0sq9lMAONX1L_-vexA_C8NVbRcoxh64ClYrdc1S0Z5GepWN9WJOKLIYQsC8rAlhyknRVzqJewPrBNw1HX61r0eS-RorDWmHaQ.TlT9txM5_aslMrn0Zy3uzw"
+}
+2025-05-15T09:32:48.561Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABM5csmk97rshy8Cl8wGXh4TXZ2u2VfqzF8TMina6atcS200iz&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallback&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=randomState
+2025-05-15T09:32:52.519Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABM5csmk97rshy8Cl8wGXh4TXZ2u2VfqzF8TMina6atcS200iz&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallback&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=randomState
+2025-05-15T09:33:11.142Z info: Create Token response is : {
+  "id_token": "eyJraWQiOiJPUElDUFJEMDUxMDIwMjMiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOlsiQUJNNWNzbWs5N3JzaHk4Q2w4d0dYaDRUWFoydTJWZnF6RjhUTWluYTZhdGNTMjAwaXoiXSwic3ViIjoiZmMzN2YyOTAtZTY4Ny0zZmQxLTgxYTctMjU1MDRjYmM0ODBiIiwicmVhbG1pZCI6IjkzNDE0NTQ2NTA0MTQwMTciLCJhdXRoX3RpbWUiOjE3NDczMDE1ODUsImlzcyI6Imh0dHBzOi8vb2F1dGgucGxhdGZvcm0uaW50dWl0LmNvbS9vcC92MSIsImV4cCI6MTc0NzMwNTE5MCwiaWF0IjoxNzQ3MzAxNTkwfQ.hzYLuLXSYeGTioR7xfZ5S1zfRY0nuQ7aXi_QBHoroy_2g4sAOzmoVFCb36vB4pybJ_ZZENXdHT6Cujy41KumrXi5FH36kcmcrGLwB8CKA3qYQ5CgXcuTQOo3ZxCLCyH8ZWruGZPYFWwPppaqP53vGLu8QzRQ7Eupqvy4eHf2_si6tQ89j9d-BVgHfZCEZ3h84tymo6z2Zdpj-bOe1wDx3YymBttYdFQS8Y-c9t8NFoHjKYF-PM-c_iW_jzgammO7K_KlgWfA6sBbhyUFF9_dU-PSu96p3Y4HrUEoZaEaNV65BtzT3n_Au7GL89LJwx0zeSo7pbXojaiwQ_JtQw9MpQ",
+  "expires_in": 3600,
+  "access_token": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwieC5vcmciOiJIMCJ9..CReTh4-9fafP01r3ey5W5w.TolmA9nliOxWrhMjE1f5g1CEuSe0mDDwgUpiGptSNzGxX7yDCYjen6Rtwde8n-NYrVyvyq0mcu10MHcLq0cwx0sTcyDjzLHzfgaZxihJovLrdEAgDiCAXqkneX9pvGDzLoZFiSrHXSciyRUlMflRGx0bPXzR-kKvVTqOjq3pAeP2A5ZMAm_LJ1DJz_aRxrZafJ7e30R6_ELzIa05FP1qV2CNDRY4hsbbL3Kk2b90IBtKg7Uyf1BOOQ46mOxgIFJY17dxDYDlG0E-FfXR30KC2k4Zd2GwESVKjE6q6SMpw0HWvGRWoDdNb2nYvvBZliz-ZSdSPzGgBfGz6PZG8a05ZjHj-arSTdd-yoA7hI8Q5Qc7nVnS1Pq0Mc_RHVjGOWlWnSlEm5f5xFPtlCutOE-M7QMc0GTQoH-dt8yjbubwdk--TA4mHjmPdUV5kFMD4vw2vFlUrjoArJqy7OOtD4NUYynz64QDgUCx5CCvClevk0xfr5FUymkLDVVGJfEQdTifTvsHV9z5fedtTUnldE6Hk7mR6oKFRGrSQb9UzmxrMtyYAM002Zjwlf1Jz4d6JSDTI0BmYanQfxWv7mw3_yI4TQ.JxaO2mMjG92fkJMthyZVQQ",
+  "refresh_token": "RT1-104-H0-1756027990zwirptdgyq9zblx2j9lc",
+  "token_type": "bearer",
+  "x_refresh_token_expires_in": 8726400
+}
+2025-05-15T09:34:49.169Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABM5csmk97rshy8Cl8wGXh4TXZ2u2VfqzF8TMina6atcS200iz&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallback&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=randomState
+2025-05-15T09:36:44.808Z error: Create Token () threw an exception : {
+  "message": "Request failed with status code 400",
+  "name": "AxiosError",
+  "stack": "Error\n    at settle (/Users/macm4mini/Documents/emran/nodejs-quickbooks/node_modules/axios/dist/node/axios.cjs:2049:16)\n    at handleStreamEnd (/Users/macm4mini/Documents/emran/nodejs-quickbooks/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at emit (node:events:84:22)\n    at endReadableNT (internal:streams/readable:862:50)\n    at processTicksAndRejections (native:7:39)\n    at <anonymous> (/Users/macm4mini/Documents/emran/nodejs-quickbooks/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at processTicksAndRejections (native:7:39)",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Authorization": "Basic QUJNNWNzbWs5N3JzaHk4Q2w4d0dYaDRUWFoydTJWZnF6RjhUTWluYTZhdGNTMjAwaXo6UmM0WUxWOTJGZUY2dkRjbWNySkQ1NW84T0xhTnVsaUJJR2psa1g5NA==",
+      "User-Agent": "Intuit-OAuthClient-JS_4.2.0_Darwin_24.3.0_darwin",
+      "Accept-Encoding": "gzip, compress, deflate, br"
+    },
+    "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+    "data": "",
+    "method": "post",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_BAD_REQUEST",
+  "status": 400
+}
+2025-05-15T09:37:08.507Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABM5csmk97rshy8Cl8wGXh4TXZ2u2VfqzF8TMina6atcS200iz&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallback&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=randomState
+2025-05-15T09:38:57.755Z error: Create Token () threw an exception : {
+  "message": "Request failed with status code 400",
+  "name": "AxiosError",
+  "stack": "Error\n    at settle (/Users/macm4mini/Documents/emran/nodejs-quickbooks/node_modules/axios/dist/node/axios.cjs:2049:16)\n    at handleStreamEnd (/Users/macm4mini/Documents/emran/nodejs-quickbooks/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at emit (node:events:84:22)\n    at endReadableNT (internal:streams/readable:862:50)\n    at processTicksAndRejections (native:7:39)\n    at <anonymous> (/Users/macm4mini/Documents/emran/nodejs-quickbooks/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at processTicksAndRejections (native:7:39)",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Authorization": "Basic QUJNNWNzbWs5N3JzaHk4Q2w4d0dYaDRUWFoydTJWZnF6RjhUTWluYTZhdGNTMjAwaXo6UmM0WUxWOTJGZUY2dkRjbWNySkQ1NW84T0xhTnVsaUJJR2psa1g5NA==",
+      "User-Agent": "Intuit-OAuthClient-JS_4.2.0_Darwin_24.3.0_darwin",
+      "Accept-Encoding": "gzip, compress, deflate, br"
+    },
+    "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+    "data": "",
+    "method": "post",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_BAD_REQUEST",
+  "status": 400
+}
+2025-05-15T09:38:59.370Z error: Create Token () threw an exception : {
+  "message": "Request failed with status code 400",
+  "name": "AxiosError",
+  "stack": "Error\n    at settle (/Users/macm4mini/Documents/emran/nodejs-quickbooks/node_modules/axios/dist/node/axios.cjs:2049:16)\n    at handleStreamEnd (/Users/macm4mini/Documents/emran/nodejs-quickbooks/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at emit (node:events:84:22)\n    at endReadableNT (internal:streams/readable:862:50)\n    at processTicksAndRejections (native:7:39)\n    at <anonymous> (/Users/macm4mini/Documents/emran/nodejs-quickbooks/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at processTicksAndRejections (native:7:39)",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Authorization": "Basic QUJNNWNzbWs5N3JzaHk4Q2w4d0dYaDRUWFoydTJWZnF6RjhUTWluYTZhdGNTMjAwaXo6UmM0WUxWOTJGZUY2dkRjbWNySkQ1NW84T0xhTnVsaUJJR2psa1g5NA==",
+      "User-Agent": "Intuit-OAuthClient-JS_4.2.0_Darwin_24.3.0_darwin",
+      "Accept-Encoding": "gzip, compress, deflate, br"
+    },
+    "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+    "data": "",
+    "method": "post",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_BAD_REQUEST",
+  "status": 400
+}
+2025-05-15T09:39:01.276Z error: Create Token () threw an exception : {
+  "message": "Request failed with status code 400",
+  "name": "AxiosError",
+  "stack": "Error\n    at settle (/Users/macm4mini/Documents/emran/nodejs-quickbooks/node_modules/axios/dist/node/axios.cjs:2049:16)\n    at handleStreamEnd (/Users/macm4mini/Documents/emran/nodejs-quickbooks/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at emit (node:events:84:22)\n    at endReadableNT (internal:streams/readable:862:50)\n    at processTicksAndRejections (native:7:39)\n    at <anonymous> (/Users/macm4mini/Documents/emran/nodejs-quickbooks/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at processTicksAndRejections (native:7:39)",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Authorization": "Basic QUJNNWNzbWs5N3JzaHk4Q2w4d0dYaDRUWFoydTJWZnF6RjhUTWluYTZhdGNTMjAwaXo6UmM0WUxWOTJGZUY2dkRjbWNySkQ1NW84T0xhTnVsaUJJR2psa1g5NA==",
+      "User-Agent": "Intuit-OAuthClient-JS_4.2.0_Darwin_24.3.0_darwin",
+      "Accept-Encoding": "gzip, compress, deflate, br"
+    },
+    "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+    "data": "",
+    "method": "post",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_BAD_REQUEST",
+  "status": 400
+}
+2025-05-15T09:39:22.992Z error: Create Token () threw an exception : {
+  "message": "Request failed with status code 400",
+  "name": "AxiosError",
+  "stack": "Error\n    at settle (/Users/macm4mini/Documents/emran/nodejs-quickbooks/node_modules/axios/dist/node/axios.cjs:2049:16)\n    at handleStreamEnd (/Users/macm4mini/Documents/emran/nodejs-quickbooks/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at emit (node:events:84:22)\n    at endReadableNT (internal:streams/readable:862:50)\n    at processTicksAndRejections (native:7:39)\n    at <anonymous> (/Users/macm4mini/Documents/emran/nodejs-quickbooks/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at processTicksAndRejections (native:7:39)",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Authorization": "Basic QUJNNWNzbWs5N3JzaHk4Q2w4d0dYaDRUWFoydTJWZnF6RjhUTWluYTZhdGNTMjAwaXo6UmM0WUxWOTJGZUY2dkRjbWNySkQ1NW84T0xhTnVsaUJJR2psa1g5NA==",
+      "User-Agent": "Intuit-OAuthClient-JS_4.2.0_Darwin_24.3.0_darwin",
+      "Accept-Encoding": "gzip, compress, deflate, br"
+    },
+    "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+    "data": "",
+    "method": "post",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_BAD_REQUEST",
+  "status": 400
+}
